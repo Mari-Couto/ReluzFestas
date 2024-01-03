@@ -22,7 +22,7 @@ body {
 }
 
 .navbar.scrolled {
-    background-color: #fff; /* Cor de fundo quando rolar para baixo */
+    background-color: #fff; 
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -30,12 +30,12 @@ body {
     color: #333;
     text-decoration: none;
     font-size: 18px;
-    margin: 0 25px; /* Ajuste de margem para centralizar os links */
+    margin: 0 25px; 
     transition: color 0.3s ease-in-out;
 }
 
 .navbar a:hover {
-    color: #661872; /* Cor ao passar o mouse sobre os links */
+    color: #661872; 
 }
 
 .logo {
@@ -52,16 +52,21 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    margin-left: auto; /* Posiciona os elementos à direita */
+    margin-left: auto; 
     justify-content: center;
-    /* Adicione esta regra para esconder inicialmente os links quando a tela é pequena */
+   
 }
 .nav-links.visible {
-    display: flex; /* Exibe os links quando a classe 'visible' é adicionada */
+    display: flex; 
 }
 .nav-links li {
-    margin-right: 10px; /* Ajuste de margem entre os elementos <li> */
+    margin-right: 10px;
 }
+
+.menu-btn {
+    display: none;
+}
+
 
 /*principal*/
 h1{
@@ -70,27 +75,24 @@ h1{
     margin-top: 4000px;
 }
 
-/* Adicione esta regra para esconder inicialmente os links quando a tela é pequena */
-.nav-links {
-    display: none;
-}
+/* Responsividade*/
 
-.menu-btn {
-    display: none; /* Esconde o botão em telas maiores */
-}
-
+/* navbar */
 @media screen and (max-width: 600px) {
     .nav-links {
-        display: flex;
+        display: none;
         flex-direction: column;
         position: absolute;
-        top: 60px; /* Ajuste conforme necessário para evitar sobreposição com a barra de navegação */
+        top: 60px;
         left: 0;
         width: 100%;
-        background-color: #fff; /* Cor de fundo do menu responsivo */
+        background-color: #fff;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
         z-index: 100;
-        
+    }
+
+    .nav-links.visible {
+        display: flex;
     }
 
     .nav-links li {
@@ -113,9 +115,7 @@ h1{
         color: #661872;
     }
 
-    /* Esconde os links na barra de navegação principal quando a tela é pequena */
     .navbar {
         overflow: hidden;
     }
 }
-    
