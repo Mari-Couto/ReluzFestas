@@ -71,9 +71,9 @@ body {
 /*Carrossel*/
 
 .carrossel {
-    margin: 0 auto;
-    width: 800px;
-    height: 400px;
+    margin: 90px auto;
+    width: 1600px;
+    height: 450px;
     overflow: hidden;
 }
 
@@ -93,13 +93,13 @@ body {
 }
 
 .slide img {
-    width: 800px;
+    width: 1600px;
 }
 
 .manual-navigation{
     position: absolute;
-    width: 800px;
-    margin-top: -40px;
+    width: 1500px;
+    margin-top: 0;
     display: flex;
     justify-content: center;
 }
@@ -145,8 +145,8 @@ body {
 }
 .navigation-auto{
     position: absolute;
-    width: 800px;
-    margin-top: 360px;
+    width: 1500px;
+    margin-top: 400px;
     display: flex;
     justify-content: center;
 }
