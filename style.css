@@ -89,6 +89,7 @@ body {
 .slide{
     width: 25%;
     position: relative;
+    transition: 2s;
 }
 
 .slide img {

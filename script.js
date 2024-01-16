@@ -1,3 +1,4 @@
+//Navbar
 window.addEventListener("scroll", function () {
     const navbar = document.querySelector(".navbar");
     if (window.scrollY > 50) {
@@ -16,11 +17,27 @@ document.addEventListener('DOMContentLoaded', function () {
         navLinks.classList.toggle('visible');
     });
 
-    // Adicione este event listener para fechar o menu ao clicar em um link
     navLinks.addEventListener('click', function (event) {
         if (event.target.tagName === 'A') {
             navLinks.classList.remove('visible');
         }
     });
 });
+
+//carroussel
+
+let count = 1;
+document.getElementById("radio1").checked = true;
+
+setInterval( function(){
+    nextImage()
+}, 4000)
+
+function nextImage(){
+    count++;
+    if(count>4){
+        count = 1;
+    }
+    document.getElementById("radio"+count).checked = true;
+}
 
