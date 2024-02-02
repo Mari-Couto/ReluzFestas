@@ -8,7 +8,7 @@ body {
 /*navbar*/
 
 .navbar {
-    background-color: transparent;
+    background-color: rgb(241, 217, 255);
     overflow: hidden;
     padding: 30px 0;
     position: fixed;
@@ -68,120 +68,21 @@ body {
     display: none;
 }
 
-/*Carrossel*/
-
-.carrossel {
-    margin: 6% auto;
-    width: 100%;
-    height: 450px;
-    overflow: hidden;
-}
-
-.slides{
-    width: 400%;
-    height: 400px;
-    display: flex;
-}
-.slides input{
-    display: none;
-}
-
-.slide{
-    width: 25%;
-    position: relative;
-    transition: 2s;
-}
-
-.slide img {
-    width: 1600px;
-    height: 150%;
-    object-fit: cover;
-}
-
-.manual-navigation{
-    position: absolute;
-    width: 1500px;
-    margin-top: 0;
-    display: flex;
-    justify-content: center;
-}
-
-.manual-btn{
-    border: 2px solid #fff;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-}
-
-.manual-btn:not(:last-child){
-    margin-right: 40px;
-}
-
-.manual-btn:hover{
-    background-color: #fff;
-}
-
-#radio1:checked ~ .first{
-    margin-left: 0;
-}
-
-#radio2:checked ~ .first{
-    margin-left: -25%;
-}
-
-#radio3:checked ~ .first{
-    margin-left: -50%;
-}
-
-#radio4:checked ~ .first{
-    margin-left: -75%;
-}
-
-.navigation-auto div{
-    border: 2px solid #661872;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-}
-.navigation-auto{
-    position: absolute;
-    width: 1500px;
-    margin-top: 400px;
-    display: flex;
-    justify-content: center;
-}
-
-.navigation-auto div:not(:last-child){
-    margin-right: 40px;
-}
-
-#radio1:checked ~ .navigation-auto .auto-btn1{
-    background-color: #fff;
-}
-
-#radio2:checked ~ .navigation-auto .auto-btn2{
-    background-color: #fff;
-}
-
-#radio3:checked ~ .navigation-auto .auto-btn3{
-    background-color: #fff;
-}
-
-#radio4:checked ~ .navigation-auto .auto-btn4{
-    background-color: #fff;
-}
-
 
 
 /*principal*/
 
 
+
 .linha-meio {
+    position: fixed;
     display: flex;
     align-items: center;
+    top: 600px;
+    left: 0;
+    right: 0;
 }
+
 
 .linha-meio .linha {
     flex: 1;
@@ -201,6 +102,7 @@ body {
 
 .letra{
     font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
     color: #661872;
 }
 
@@ -259,9 +161,3 @@ body {
         color: #661872;
     }
 }
-/*carrossel*/
-@media screen and (max-width: 1285px) {
-    .carrossel {
-        display: none;
-    }
-    }
