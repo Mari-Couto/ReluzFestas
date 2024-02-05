@@ -23,3 +23,11 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
+
+const minhocasContainer = document.querySelector('.minhocas');
+
+for (let i = 0; i < 10; i++) {
+    const minhoca = document.createElement('div');
+    minhoca.classList.add('minhoca');
+    minhocasContainer.appendChild(minhoca);
+}
