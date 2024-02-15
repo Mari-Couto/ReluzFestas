@@ -130,8 +130,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     flex-direction: column;
+    margin-top: 20px; 
 }
 
 .card {
@@ -141,7 +141,7 @@ body {
     overflow: hidden;
     width: 80%;
     max-width: 800px;
-    margin-top: -480px;
+
 }
 
 .card-header {
@@ -197,7 +197,6 @@ body {
 .galeria {
     text-align: center;
     padding: 40px 0;
-    margin-top: -500px;
 }
 
 .galeria h2 {
@@ -229,6 +228,7 @@ body {
 .inst p{
     font-size: 20px;
     color: #4d125f;
+    margin-top: -15px;
 }
 .btn-instagram {
     display: inline-block;
@@ -244,10 +244,33 @@ body {
 }
 
 .btn-instagram:hover {
-    background-color: #b5923f; /* Cor de fundo ao passar o mouse */
+    background-color: #b5923f; 
+}
+.equipe {
+    text-align: center;
+    margin: 0 50px;
 }
 
+.equipe h3 {
+    font-size: 40px;
+}
 
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; 
+}
+
+.conteudo p {
+    margin: 0 20px; 
+    max-width: 50%; 
+}
+
+.conteudo img {
+    width: 400px;
+    height: auto;
+}
 
 
 
@@ -309,7 +332,6 @@ body {
 @media screen and (max-width: 768px) {
     .card {
         width: 80%; 
-        margin-top: -420px;
     }
 
     .card-header {
@@ -332,7 +354,6 @@ body {
 @media screen and (max-width: 480px) {
     .card {
         width: 85%; 
-        margin-top: -450px;
     }
 }
 
