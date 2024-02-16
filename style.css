@@ -246,12 +246,14 @@ body {
 .btn-instagram:hover {
     background-color: #b5923f; 
 }
-.equipe {
+.sobre {
     text-align: center;
     margin: 0 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
-.equipe h3 {
+.sobre h3 {
     font-size: 40px;
 }
 
