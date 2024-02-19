@@ -278,51 +278,30 @@ body {
 .footer {
     background-color: #661872;
     color: #fff;
-    padding: 20px 0;
-}
-
-.container {
-    max-width: 1200px;
+    padding: 10px 0;
     margin: 0 auto;
-    padding: 0 10px;
 }
 
 .footer-content {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
 }
 
-.footer-left {
-    flex: 1;
-}
-
-.footer-left h4 {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-.footer-left ul {
+.footer-content ul {
     list-style: none;
     padding: 0;
 }
 
-.footer-left ul li {
-    margin-bottom: 10px;
+.footer-content ul li {
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 10px;
 }
 
-.footer-left ul li i {
-    margin-right: 10px;
-}
 
-.footer-left ul li a{
+.footer-content ul li a{
    color: #fff;
    text-decoration: none;
-}
-
-.footer-right {
-    flex: 1;
-    text-align: right;
 }
 
 .footer-bottom {
