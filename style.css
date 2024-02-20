@@ -135,13 +135,14 @@ body {
 }
 
 .card {
-    background-color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('img/dourado.jpg');
+    background-size: cover; 
+    background-position: center;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(140, 97, 176, 0.432);
     overflow: hidden;
     width: 80%;
     max-width: 800px;
-
 }
 
 .card-header {
@@ -165,7 +166,8 @@ body {
 .mensagem p {
     margin: 0;
     line-height: 1.5;
-    color: #333;
+    color: #000;
+    font-size: 20px;
 }
 .mensagem i {
     margin-right: 10px;
