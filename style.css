@@ -1,15 +1,16 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
     background-color: rgb(241, 217, 255);
-    
+    font-family: 'Roboto', sans-serif;
 }
 
 /*navbar*/
 
 .navbar {
     background-color: rgb(241, 217, 255);
+    font-family: 'Playfair Display', serif;
+    font-weight: 550;
     overflow: hidden;
     padding: 10px 0;
     position: fixed;
@@ -31,7 +32,7 @@ body {
 }
 
 .navbar a {
-    color: #333;
+    color: #412d59;
     text-decoration: none;
     font-size: 18px;
     margin: 0 25px; 
@@ -39,7 +40,7 @@ body {
 }
 
 .navbar a:hover {
-    color: #661872; 
+    color: #cba962; 
 }
 
 .logo {
@@ -104,7 +105,7 @@ body {
 .linha-meio .linha {
     flex: 1;
     height: 2px;
-    background-color: #661872;
+    background-color: #412d59;
 }
 
 .linha-meio span {
@@ -114,13 +115,14 @@ body {
 .linha {
     flex: 1;
     height: 1px;
-    background-color: #661872;
+    background-color: #412d59;
 }
 
 .letra {
     font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
-    color: #661872;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    color: #412d59;
 }
 
 /*Card*/
@@ -135,7 +137,7 @@ body {
 }
 
 .card {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('img/dourado.jpg');
+    background-image: url('img/dourado.png');
     background-size: cover; 
     background-position: center;
     border-radius: 8px;
@@ -150,6 +152,7 @@ body {
     color: #fff;
     padding: 10px;
     text-align: center;
+    font-family: 'Playfair Display', serif;
 }
 
 .card-body {
@@ -166,6 +169,7 @@ body {
 .mensagem p {
     margin: 0;
     line-height: 1.5;
+    font-weight: 600;
     color: #000;
     font-size: 20px;
 }
@@ -194,6 +198,37 @@ body {
     background-color: #4d125f;
 }
 
+/* Sobre */
+
+.sobre {
+    text-align: center;
+    margin: 0 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.sobre h3 {
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; 
+}
+
+.conteudo p {
+    margin: 0 20px; 
+    max-width: 50%; 
+}
+
+.conteudo img {
+    width: 400px;
+    height: auto;
+}
+
 
 /*Galeria*/
 .galeria {
@@ -204,6 +239,7 @@ body {
 .galeria h2 {
     color: #661872;
     font-size: 45px;
+    font-family: 'Playfair Display', serif;
 }
 
 .grid-container {
@@ -246,34 +282,7 @@ body {
 }
 
 .btn-instagram:hover {
-    background-color: #b5923f; 
-}
-.sobre {
-    text-align: center;
-    margin: 0 50px;
-    margin-top: 50px;
-    margin-bottom: 30px;
-}
-
-.sobre h3 {
-    font-size: 40px;
-}
-
-.conteudo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px; 
-}
-
-.conteudo p {
-    margin: 0 20px; 
-    max-width: 50%; 
-}
-
-.conteudo img {
-    width: 400px;
-    height: auto;
+    background-color: #cba962; 
 }
 
 /* Footer */
@@ -358,13 +367,16 @@ body {
     .menu-btn {
         display: block;
         position: fixed;
-        top: 25px;
+        top: 35px;
         right: 20px;
         font-size: 20px;
         cursor: pointer;
         background: transparent;
         border: none;
         outline: none;
+        font-family: 'Playfair Display', serif;
+        font-weight: 600;
+        color: #412d59;
     }
 
     .menu-btn:hover {
