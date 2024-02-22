@@ -202,13 +202,14 @@ body {
 
 .sobre {
     text-align: center;
-    margin: 0 50px;
+    margin: 0 60px;
     margin-top: 50px;
     margin-bottom: 30px;
 }
 
 .sobre h3 {
     font-size: 40px;
+    color: #661872;
     font-family: 'Playfair Display', serif;
 }
 
@@ -220,13 +221,16 @@ body {
 }
 
 .conteudo p {
-    margin: 0 20px; 
+    margin: 0 40px; 
     max-width: 50%; 
+    text-align: justify;
+    padding-right: 40px;
 }
 
 .conteudo img {
     width: 400px;
     height: auto;
+    border-radius: 8px;
 }
 
 
