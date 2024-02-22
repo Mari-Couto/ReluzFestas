@@ -416,6 +416,39 @@ body {
         width: 85%; 
     }
 }
+/* Sobre */
+@media screen and (max-width: 980px) {
+    .conteudo p {
+        text-align: justify;
+        margin: 0 ; 
+        max-width: 100%;
+    }
+    .conteudo img {
+        width: 300px;
+        margin-top: 45px; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .conteudo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteudo p {
+        text-align: justify;
+        margin: 0 ; 
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+    .conteudo img {
+        width: 500px;
+        width: 100%;
+        margin-top: 45px; 
+    }
+}
+
 
 /* galeria*/
 @media screen and (max-width: 768px) {
