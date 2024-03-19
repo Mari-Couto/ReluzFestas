@@ -1,0 +1,89 @@
+/*Dicas*/
+.dicas {
+    text-align: center;
+    margin: 0 70px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+.dicas2 {
+    text-align: center;
+    margin: 0 70px;
+    margin-left: 100px;
+}
+
+.dicas h3 {
+    font-size: 40px;
+    color: #661872;
+    font-family: 'Playfair Display', serif;
+}
+
+.conteudoDicas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; 
+}
+
+.conteudoDicas p {
+    margin: 0 40px; 
+    max-width: 50%; 
+    text-align: justify;
+    padding-right: 40px;
+}
+
+.conteudoDicas img {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* navegação */
+.link-list {
+    list-style-type: none;
+    padding: 30px;
+    margin-left: 40px;
+    margin-top: 130px;
+    background-color: #d1b9d5;
+    width: 100px;
+    border-radius: 10px;
+    position: fixed;
+    z-index: 9999; 
+    background-color: rgb(241, 217, 255);
+    font-family: 'Playfair Display', serif;
+    font-weight: 550;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+}
+
+.link-list li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #661872;
+    text-decoration: none;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+.link-list li a::before {
+    content: '';
+    position: absolute;
+    left: -3px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px; 
+    height: 10px; 
+    background-color: #661872;
+    border-radius: 50%;
+}
+
+.link-list li a:hover {
+   color: #4d125f;
+}
