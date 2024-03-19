@@ -8,7 +8,7 @@
 .dicas2 {
     text-align: center;
     margin: 0 70px;
-    margin-left: 100px;
+    margin-left: 130px;
 }
 
 .dicas h3 {
@@ -41,7 +41,7 @@
 .link-list {
     list-style-type: none;
     padding: 30px;
-    margin-left: 40px;
+    margin-left: 20px;
     margin-top: 130px;
     background-color: #d1b9d5;
     width: 100px;
@@ -87,3 +87,72 @@
 .link-list li a:hover {
    color: #4d125f;
 }
+
+/* Responsividade */
+/* conteudo */
+@media screen and (max-width: 1175px) {
+    .conteudoDicas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteudoDicas p {
+        text-align: justify;
+        margin: 0 ; 
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+    .conteudoDicas img {
+        width: 450px;
+        margin-top: 45px; 
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .conteudoDicas {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-left: -130px;
+        margin-right: -90px;
+    }
+
+    .dicas2 h4 {
+        margin-left: -130px;
+        margin-right: -90px;
+    }
+
+    .conteudoDicas p {
+        text-align: justify;
+        margin: 0 ; 
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+    .conteudoDicas img {
+        width: 100%;
+        margin-top: 45px; 
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+/* Navegação */
+@media screen and (max-width: 830px) {
+    .link-list {
+        position: relative;
+        top: 0; 
+        width: auto;
+        margin-left: 0;
+        padding: 20px;
+        z-index: auto;
+        margin-bottom: -100px;
+    }
+    
+    .link-list li {
+        margin-bottom: 5px;
+    }
+}
+
