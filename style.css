@@ -179,39 +179,38 @@ body {
 
 /* Sobre */
 
-.sobre {
+.dicas {
     text-align: center;
     margin: 0 70px;
-    margin-top: 80px;
+    margin-top: 150px;
     margin-bottom: 30px;
 }
 
-.sobre h3 {
+.dicas h3 {
     font-size: 40px;
     color: #661872;
     font-family: 'Playfair Display', serif;
 }
 
-.conteudo {
+.conteudoDicas {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px; 
 }
 
-.conteudo p {
+.conteudoDicas p {
     margin: 0 40px; 
     max-width: 50%; 
     text-align: justify;
     padding-right: 40px;
 }
 
-.conteudo img {
+.conteudoDicas img {
     width: 400px;
     height: auto;
     border-radius: 8px;
 }
-
 
 /*Galeria*/
 .galeria {
