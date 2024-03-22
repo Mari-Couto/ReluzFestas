@@ -16,6 +16,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 50px; 
+    flex-direction: column;
 }
 
 .conteudoDicas p {
@@ -30,6 +31,18 @@
     border-radius: 8px;
 }
 
+.minha-lista {
+    list-style-type: decimal;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-top: 20px; 
+    text-align: justify;
+    margin: 0 110px;
+}
+
+.minha-lista li {
+    margin-bottom: 10px;
+}
 /* navegação */
 .link-list {
     list-style-type: none;
@@ -65,21 +78,12 @@
     transition: background-color 0.3s ease;
 }
 
-.link-list li a::before {
-    content: '';
-    position: absolute;
-    left: -3px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 10px; 
-    height: 10px; 
-    background-color: #661872;
-    border-radius: 50%;
-}
+
 
 .link-list li a:hover {
-   color: #4d125f;
+   color: #cba962;
 }
+
 
 /* Responsividade */
 /* conteudo */
