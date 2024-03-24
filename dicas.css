@@ -196,6 +196,8 @@
     
     .link-list li {
         margin-bottom: 5px;
+        margin: 0 85px;
+        padding: 4px;
     }
 }
 
