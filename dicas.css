@@ -1,7 +1,7 @@
 /*Dicas*/
 .dicas {
     text-align: center;
-    margin: 0 70px;
+    margin: 0 100px;
     margin-bottom: 30px;
 }
 
@@ -16,7 +16,23 @@
     justify-content: center;
     align-items: center;
     margin-top: 50px; 
+}
+.coluna{
+    display: flex;
     flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 100%;
+}
+
+.p1{
+    max-width: 70% !important;
+    margin-bottom: 30px !important;
+}
+
+.coluna p {
+    text-align: center; 
+    margin: 0; 
 }
 
 .conteudoDicas p {
