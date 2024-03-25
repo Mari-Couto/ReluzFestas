@@ -403,7 +403,7 @@ body {
     }
 
     .linha-meio span {
-        font-size: 22px; 
+        font-size: 30px; 
     }
 }
 
@@ -413,10 +413,11 @@ body {
     }
 
     .linha-meio span {
-        font-size: 18px; 
+        font-size: 26px; 
         display: block;
         margin: 10px auto; /
     }
+
 }
 
 /*chamada */
