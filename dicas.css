@@ -63,7 +63,7 @@
 /* navegação */
 .link-list {
     list-style-type: none;
-    padding: 28px;
+    padding: 0 28px;
     margin-top: 105px;
     margin-left: 7px;
     width: 100px;
@@ -83,11 +83,13 @@
 
 .link-list p {
     align-items: center;
-    color: #661872;
+    color: #3d0f45;
+    font-size: 16px;
 }
 
 .link-list li {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
 }
 
 .link-list li a {
@@ -210,8 +212,19 @@
     
     .link-list li {
         margin-bottom: 5px;
-        margin: 0 85px;
+        margin: 0;
         padding: 4px;
+    }
+}
+
+
+@media screen and (max-width: 432px) {
+    .link-list li {
+        margin-bottom: 5px;
+        margin-left: 0; 
+        margin-right: 0; 
+        padding: 4px;
+        text-align: center;
     }
 }
 
