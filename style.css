@@ -474,7 +474,7 @@ body {
     }
 
     .conteudo p {
-        text-align: left;
+        text-align: justify;
         margin: 0 ; 
         max-width: 100%;
         padding-right: 0;
