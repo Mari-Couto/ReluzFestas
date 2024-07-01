@@ -1,0 +1,78 @@
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#festa-title {
+    padding-top: 70px; 
+}
+
+#festa-services-included {
+    padding-bottom: 40px;
+}
+
+#festa-theme-description,
+#festa-services-included {
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.img-container img {
+    width: 100%; 
+    height: auto;
+    max-width: 400px; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#services-detail {
+    font-weight: bold;
+}
+
+#solicitar-orcamento {
+    margin-bottom: 30px;
+}
+
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%; 
+    }
+
+    #festa-title {
+        padding-top: 80px;
+    }
+
+    #festa-services-included {
+        padding-bottom: 20px;
+    }
+
+    .img-container {
+        flex-wrap: wrap; 
+    }
+
+    .img-container img {
+        width: 100%; 
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #festa-title {
+        padding-top: 60px; 
+    }
+
+    #solicitar-orcamento {
+        max-width: 100%;
+    }
+}
