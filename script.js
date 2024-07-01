@@ -53,7 +53,7 @@ const festas = {
     Formatura: {
         title: "Festa de Formatura",
         themeDescription: "Celebre sua conquista com uma festa de formatura memorável. Com decorações elegantes e sofisticadas, criamos um ambiente que reflete seu sucesso e alegria. Esta celebração é perfeita para comemorar essa conquista importante em sua vida.",
-        imageGallery: ["img/Formatura.jpg"],
+        imageGallery: ["img/formatura.jpg"],
         servicesIncluded: "Oferecemos decoração personalizada para sua festa de formatura, incluindo layout e design exclusivos, coordenação no dia do evento e suporte completo para garantir que sua celebração seja um sucesso.",
         contactInfo: "Entre em contato conosco para informações detalhadas e solicitação de orçamento personalizado.",
     },
@@ -67,7 +67,7 @@ const festas = {
     Hulk: {
         title: "Festa Hulk",
         themeDescription: "Explore a força e a energia do Hulk em sua festa temática. Com decorações vibrantes e poderosas, criamos um ambiente dinâmico e empolgante para os fãs deste herói icônico. Esta celebração é perfeita para quem busca uma experiência cheia de adrenalina.",
-        imageGallery: ["img/Hulk.jpg"],
+        imageGallery: ["img/hulk.jpg"],
         servicesIncluded: "Inclui decoração completa do ambiente com tema do Hulk, elementos impactantes, montagem e desmontagem. Garantimos que sua festa seja uma experiência memorável e repleta de emoção.",
         contactInfo: "Entre em contato conosco para informações detalhadas e solicitação de orçamento personalizado.",
     },
@@ -81,7 +81,7 @@ const festas = {
     Pokemon: {
         title: "Festa Pokémon",
         themeDescription: "Entre no mundo dos Pokémon com nossa festa temática. Com decorações coloridas e divertidas, criamos um ambiente animado e cativante para sua celebração. Ideal para os fãs de todas as idades que desejam uma experiência cheia de aventura e criatividade.",
-        imageGallery: ["img/Pokemon.jpg"],
+        imageGallery: ["img/pokemon.jpg"],
         servicesIncluded: "Inclui decoração completa do ambiente com tema Pokémon, elementos temáticos, montagem e desmontagem. Garantimos que sua festa seja um evento inesquecível e repleto de diversão.",
         contactInfo: "Entre em contato conosco para informações detalhadas e solicitação de orçamento personalizado.",
     }
