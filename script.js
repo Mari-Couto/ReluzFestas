@@ -127,7 +127,7 @@ const festas = {
             servicesIncluded: "Inclui decoração temática de futebol, e pequenos detalhes que trazem a essência do esporte, além de montagem e desmontagem. Criamos um ambiente acolhedor e animado para uma celebração esportiva inesquecível.",
             contactInfo: "Entre em contato conosco para informações detalhadas e solicitação de orçamento personalizado.",
         }, 
-
+//Mini Tables
         HarryPotter: {
             title: "Mini Table Harry Potter",
             themeDescription: "Entre no mundo mágico de Harry Potter com nossa festa temática encantadora! Com decorações inspiradas nos feitiçaria e nas aventuras de Hogwarts, criamos um ambiente mágico e misterioso, perfeito para fãs da saga. Transforme sua celebração em um conto de fadas com detalhes mágicos e uma atmosfera encantadora.",
