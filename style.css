@@ -6,26 +6,26 @@ body {
 }
 
 /*navbar*/
-
 .navbar {
     background-color: rgb(241, 217, 255);
     font-family: 'Playfair Display', serif;
     font-weight: 550;
-    overflow: hidden;
-    padding: 10px 0;
+    padding: 10px 20px;
     position: fixed;
     width: 100%;
-    max-height: 80px; 
+    max-height: 80px;
     top: 0;
-    transition: 0.5s ease-in-out;
-    z-index: 1000000;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.5s ease-in-out, box-shadow 0.3s ease;
+    z-index: 1000000; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    overflow: visible;
 }
 
 .content {
-    padding-top: 80px;
+    padding-top: 90px;
 }
 
 .navbar.scrolled {
@@ -37,44 +37,66 @@ body {
     color: #412d59;
     text-decoration: none;
     font-size: 18px;
-    margin: 0 25px; 
+    margin: 0 20px;
     transition: color 0.3s ease-in-out;
 }
 
 .navbar a:hover {
-    color: #cba962; 
-}
-
-.logo {
-    float: left;
+    color: #cba962;
 }
 
 .logo img {
-    max-height: 90px; 
+    max-height: 70px; 
     max-width: 100%;
 }
 
 .nav-links {
     list-style: none;
+    display: flex;
     margin: 0;
     padding: 0;
-    display: flex;
-    margin-left: auto; 
-    justify-content: center;
-   
+    align-items: center;
 }
-.nav-links.visible {
-    display: flex; 
-}
+
 .nav-links li {
-    margin-right: 10px;
+    margin-right: 15px;
+    position: relative; 
 }
 
 .menu-btn {
+    display: none; 
+}
+/* Estilo do dropdown (submenu) */
+.dropdown-content {
     display: none;
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    background-color: rgb(241, 217, 255);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    list-style: none;
+    z-index: 1000000;
+    min-width: 160px;
 }
 
+.dropdown-content li {
+    margin-bottom: 10px;
+}
 
+.dropdown-content li a {
+    font-size: 16px;
+    color: #412d59;
+    white-space: nowrap;
+}
+
+.dropdown-content li a:hover {
+    color: #cba962;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 /*principal*/
 .imagem-full {
@@ -217,6 +239,13 @@ body {
 
 
 /*Galeria*/
+.subtitulo {
+    margin: 0 20px;
+    padding: 10px; 
+    text-align: center; 
+    font-size: 1.2em; 
+    line-height: 1.5; 
+}
 .galeria {
     text-align: center;
     padding: 40px 0;
@@ -381,7 +410,11 @@ body {
         font-size: 25px;
         color: #fff 
     }
-
+    .dropdown-content li a {
+        font-size: 25px;
+        color: #412d59;
+        white-space: nowrap;
+    }
 
     .menu-btn {
         display: block;
@@ -543,6 +576,7 @@ body {
 
     .redes {
         display: flex; 
-        justify-content: center; 
+        justify-content: center;
     }
 }
+

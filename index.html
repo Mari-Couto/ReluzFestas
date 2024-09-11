@@ -1,27 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Organização de Festas - Reluz Festas. Encontre as melhores opções para tornar sua festa inesquecível.">
-    <meta name="keywords" content="organização de festas, eventos, festividades, planejamento de eventos, festas infantis">
+    <meta name="description" content="Organização de Festas em Aracaju - Reluz Festas. Encontre as melhores opções para tornar sua festa inesquecível.">
+    <meta name="keywords" content="organização de festas Aracaju, eventos, decorador de festas, decoradora de festas Aracaju, decoração de festas Aracaju, decorações de festas Aracaju, festividades, planejamento de eventos Aracaju, festas infantis Aracaju">
     <meta name="author" content="Reluz Festas">
     <title>Reluz Festas</title>
-        <!-- Folhas de Estilo (CSS) -->
-        <link rel="stylesheet" href="style.css">
     
-         <!-- icons -->
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
-         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-          crossorigin="anonymous" referrerpolicy="no-referrer" />
-       <!-- Fontes -->
-    <!-- Link para a fonte Playfair Display -->
+    <!-- Folhas de Estilo (CSS) -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Favicon -->
+    <link rel="icon" href="/img/logo.png" type="image/png">
+    
+    <!-- Fontes -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap">
-    <!-- Link para a fonte Roboto -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
-        <!-- Scripts JavaScript -->
-        <script src="script.js" defer></script>
-    </head>
+    
+    <!-- Scripts JavaScript -->
+    <script src="script.js" defer></script>
+
+    <!-- Dados Estruturados (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Reluz Festas",
+      "url": "https://reluzfestas.com.br",
+      "logo": "https://reluzfestas.com.br/img/logo.png",
+      "description": "Especialistas em organização e decoração de festas em Aracaju, Sergipe.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Aracaju",
+        "addressRegion": "SE",
+        "addressCountry": "BR"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Service",
+        "telephone": "+55-79-996650148",
+        "contactOption": "WhatsApp"
+      }
+    }
+    </script>
+</head>
+
     <body>
       <header>
         <!-- Navbar-->
@@ -36,11 +65,21 @@
               <li><a href="#">Início</a></li>
               <li><a href="sobre.html">Sobre</a></li>
               <li><a href="dicas.html">Dicas</a></li>
-              <li><a href="#galeria">Nossas Festas</a></li>
+              <li class="dropdown">
+                  <a href="#galeria">Nossas Festas</a>
+                  <ul class="dropdown-content">
+                      <li><a href="minitable.html">Mini Table</a></li>
+                      <li><a href="#">Pegue e monte</a></li>
+                      <li><a href="#">Festas maiores</a></li>
+                  </ul>
+              </li>
               <li><a href="#footer">Contato</a></li>
           </ul>
-      </nav>  
+      </nav>
       <div class="content">
+          <!-- Conteúdo da página -->
+      </div>
+      
         <!-- Conteúdo abaixo do Navbar -->
     </div> 
       </header> 
@@ -70,29 +109,48 @@
           <h3>Clique na sua festa desejada, e saiba mais!</h3>
           <div class="grid-container">
               <div class="grid-item">
-                  <a href="detalhes.html?festa=Moranguinho"><img src="img/MoranguinhoG.jpg" alt="Moranguinho"></a>
+                  <a href="detalhes.html?festa=Moranguinho"><img src="img/MoranguinhoG.jpg" alt="Festa Moranguinho"></a>
               </div>
               <div class="grid-item">
-                  <a href="detalhes.html?festa=Mario"><img src="img/mario.jpg" alt="Mario"></a>
+                  <a href="detalhes.html?festa=Mario"><img src="img/mario.jpg" alt="Festa Mario"></a>
               </div>
               <div class="grid-item">
-                  <a href="detalhes.html?festa=PatrulhaCanina"><img src="img/PatrulhaCaninaG.jpg" alt="Foto 3"></a>
+                  <a href="detalhes.html?festa=PatrulhaCanina"><img src="img/PatrulhaCaninaG.jpg" alt="Festa Patrulha Canina"></a>
               </div>
               <div class="grid-item">
-                  <a href="detalhes.html?festa=Formatura"><img src="img/formatura.jpg" alt="Formatura"></a>
+                  <a href="detalhes.html?festa=Formatura"><img src="img/formatura.jpg" alt="Festa Formatura"></a>
               </div>
               <div class="grid-item">
-                  <a href="detalhes.html?festa=JardimDasBorboletas"><img src="img/JardimDasBorboletasG.jpg" alt="Foto 5"></a>
+                  <a href="detalhes.html?festa=JardimDasBorboletas"><img src="img/JardimDasBorboletas.jpg" alt="Festa Jardim Das Borboletas"></a>
               </div>
               <div class="grid-item">
                   <a href="detalhes.html?festa=Hulk"><img src="img/hulk.jpg" alt="Hulk"></a>
               </div>
               <div class="grid-item">
-                  <a href="detalhes.html?festa=FundoDoMar"><img src="img/FundoDoMarG.png" alt="Foto 7"></a>
+                  <a href="detalhes.html?festa=FundoDoMar"><img src="img/FundoDoMarG.png" alt="Festa fundo do mar"></a>
               </div>
               <div class="grid-item">
-                  <a href="detalhes.html?festa=Pokemon"><img src="img/pokemon.jpg" alt="Pokemon"></a>
+                  <a href="detalhes.html?festa=Pokemon"><img src="img/pokemon.jpg" alt="Festa Pokemon"></a>
               </div>
+              <div class="grid-item">
+                <a href="detalhes.html?festa=Safari"><img src="img/Safari2.jpg" alt="Festa Safari"></a>
+            </div>
+            <div class="grid-item">
+                <a href="detalhes.html?festa=PoolParty"><img src="img/PoolParty.jpg" alt="Festa Pool Party"></a>
+            </div>
+            <div class="grid-item">
+              <a href="detalhes.html?festa=BosqueEncantado"><img src="img/bosqueEncantado.jpeg" alt="Festa Bosque Encantado"></a>
+          </div>
+          <div class="grid-item">
+            <a href="detalhes.html?festa=HarmoniaSuave"><img src="img/festaCorClara.jpeg" alt="Festa HarmoniaSuave"></a>
+        </div>
+        <div class="grid-item">
+          <a href="detalhes.html?festa=ElegânciaNoturna"><img src="img/festaCorEscura.jpeg" alt="Festa ElegânciaNoturna"></a>
+      </div>
+      <div class="grid-item">
+        <a href="detalhes.html?festa=FestaDoFutebol"><img src="img/futebol 2.jpg
+        " alt="Festa Futebol"></a>
+    </div>
           </div>
           <div class="inst">
               <p>Quer conhecer mais do nosso trabalho? Acesse nosso Instagram</p>

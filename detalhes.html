@@ -1,41 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="pt-br">
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detalhes da Festa</title>
-    <link rel="stylesheet" href="detalhes.css">
+    <meta name="description" content="Organização de Festas em Aracaju - Reluz Festas. Encontre as melhores opções para tornar sua festa inesquecível.">
+    <meta name="keywords" content="organização de festas Aracaju, eventos, decorador de festas, decoradora de festas Aracaju, decoração de festas Aracaju, decorações de festas Aracaju, festividades, planejamento de eventos Aracaju, festas infantis Aracaju">
+    <meta name="author" content="Reluz Festas">
+    <title>Reluz Festas</title>
+    
+    <!-- Folhas de Estilo (CSS) -->
     <link rel="stylesheet" href="style.css">
     
-    <!-- icons -->
+    <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
-    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- Fontes -->
-<!-- Link para a fonte Playfair Display -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap">
-<!-- Link para a fonte Roboto -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
-   <!-- Scripts JavaScript -->
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Favicon -->
+    <link rel="icon" href="/img/logo.png" type="image/png">
+    
+    <!-- Fontes -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    
+    <!-- Scripts JavaScript -->
     <script src="script.js" defer></script>
+
+    <!-- Dados Estruturados (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Reluz Festas",
+      "url": "https://reluzfestas.com.br",
+      "logo": "https://reluzfestas.com.br/img/logo.png",
+      "description": "Especialistas em organização e decoração de festas em Aracaju, Sergipe.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Aracaju",
+        "addressRegion": "SE",
+        "addressCountry": "BR"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Service",
+        "telephone": "+55-79-996650148",
+        "contactOption": "WhatsApp"
+      }
+    }
+    </script>
 </head>
-<body>
-    <!-- Navbar-->
-    <nav class="navbar">
-        <div class="logo">
-            <a href="#">
-                <img src="img/logoReluz.png" alt="Logo Reluz Festas">
-            </a>
-            <button class="menu-btn">&#9776; Menu</button>
-        </div>
-        <ul class="nav-links">
+
+    <body>
+      <header>
+        <!-- Navbar-->
+        <nav class="navbar">
+          <div class="logo">
+              <a href="#">
+                  <img src="img/logoReluz.png" alt="Logo Reluz Festas">
+              </a>
+              <button class="menu-btn">&#9776; Menu</button>
+          </div>
+          <ul class="nav-links">
             <li><a href="index.html">Início</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="dicas.html">Dicas</a></li>
-            <li><a href="#galeria">Nossas Festas</a></li>
-            <li><a href="#footer">Contato</a></li>
-        </ul>
-    </nav>  
+              <li><a href="sobre.html">Sobre</a></li>
+              <li><a href="dicas.html">Dicas</a></li>
+              <li class="dropdown">
+                  <a href="#galeria">Nossas Festas</a>
+                  <ul class="dropdown-content">
+                      <li><a href="#">Mini Table</a></li>
+                      <li><a href="#">Pegue e monte</a></li>
+                      <li><a href="#">Festas maiores</a></li>
+                  </ul>
+              </li>
+              <li><a href="#footer">Contato</a></li>
+          </ul>
+      </nav>
+      <div class="content">
     <div class="container">
         <h1 id="festa-title">Detalhes da Festa</h1>
         <p id="festa-theme-description"></p>

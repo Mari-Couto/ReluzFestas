@@ -60,7 +60,7 @@ const festas = {
     JardimDasBorboletas: {
         title: "Festa Jardim das Borboletas",
         themeDescription: "Entre no mundo encantador do Jardim das Borboletas com nossa festa temática. Com decorações delicadas, inspiradas na natureza e nas borboletas, criamos um ambiente mágico e sereno para sua celebração. Ideal para quem busca uma experiência suave e harmoniosa.",
-        imageGallery: ["img/JardimDasBorboletasG.jpg", "img/JardimDasBorboletasP.jpg"],
+        imageGallery: ["img/JardimDasBorboletasG.jpg", "img/JardimDasBorboletasP.jpg", "img/jardimdasborboletas2.jpg"],
         servicesIncluded: "Inclui decoração completa do ambiente com tema do Jardim das Borboletas, elementos naturais, montagem e desmontagem. Cada detalhe é planejado para proporcionar uma atmosfera encantadora e relaxante.",
         contactInfo: "Entre em contato conosco para informações detalhadas e solicitação de orçamento personalizado.",
     },
@@ -84,9 +84,96 @@ const festas = {
         imageGallery: ["img/pokemon.jpg"],
         servicesIncluded: "Inclui decoração completa do ambiente com tema Pokémon, elementos temáticos, montagem e desmontagem. Garantimos que sua festa seja um evento inesquecível e repleto de diversão.",
         contactInfo: "Entre em contato conosco para informações detalhadas e solicitação de orçamento personalizado.",
-    }
-    
+    },
+    Safari: {
+        title: "Festa Safari",
+        themeDescription: "Aventure-se na selva com nossa Festa Safari! Com uma decoração cheia de animais selvagens, plantas exuberantes e detalhes que remetem à savana africana, criamos um ambiente envolvente e divertido. Perfeito para os pequenos exploradores e amantes da natureza.",
+        imageGallery: ["img/safari2.jpg"],
+        servicesIncluded: "Inclui decoração completa do ambiente com tema Safari, elementos temáticos, montagem e desmontagem. Garantimos que sua festa seja uma aventura inesquecível e cheia de emoção.",
+        contactInfo: "Entre em contato conosco para informações detalhadas e solicitação de orçamento personalizado.",
+    },
+    PoolParty: {
+        title: "Festa Pool Party",
+        themeDescription: "Mergulhe na diversão com nossa Festa Pool Party! Com decorações coloridas, infláveis e tudo que você precisa para uma festa à beira da piscina, criamos um ambiente refrescante e vibrante. Ideal para comemorar os dias ensolarados com muito estilo e alegria.",
+        imageGallery: ["img/PoolParty.jpg"],
+        servicesIncluded: "Inclui decoração completa do ambiente com tema Pool Party, elementos temáticos, montagem e desmontagem. Garantimos que sua festa seja um evento inesquecível e cheio de diversão.",
+        contactInfo: "Entre em contato conosco para informações detalhadas e solicitação de orçamento personalizado.",
+    },
+    BosqueEncantado: {
+            title: "Festa Bosque Encantado",
+            themeDescription: "Entre em um mundo mágico com nossa Festa Bosque Encantado! Com decorações que evocam a serenidade e mistério de uma floresta encantada, sua festa será repleta de elementos mágicos e iluminação suave que transportará todos para um cenário de conto de fadas.",
+            imageGallery: ["img/boqueEncantado2.jpeg", "img/BosqueEncantadocake.jpeg"],
+            servicesIncluded: "Inclui decoração completa do ambiente com tema Bosque Encantado, pode elementos temáticos como árvores de balões, iluminação especial, personagens amigáveis, montagem e desmontagem. Criamos um ambiente encantador para uma celebração mágica.",
+            contactInfo: "Entre em contato conosco para informações detalhadas e solicitação de orçamento personalizado.",
+        },
+    HarmoniaSuave: {
+            title: "Festa Harmonia Suave",
+            themeDescription: "Celebre com elegância e tranquilidade em nossa Festa Harmonia Suave! Este tema é ideal para quem aprecia a beleza de uma paleta de cores delicadas, criando uma atmosfera serena e envolvente. Perfeito para eventos que buscam sofisticação e um toque de leveza.",
+            imageGallery: ["img/festaCorClara.jpeg", "img/festaCorClara2.jpeg"],
+            servicesIncluded: "Inclui decoração completa do ambiente com tons suaves, balões de cores claras ou tons pastéis, pode incluir flores delicadas, iluminação sutil, e montagem e desmontagem. Cada detalhe é cuidadosamente planejado para criar um ambiente harmonioso e encantador.",
+            contactInfo: "Entre em contato conosco para informações detalhadas e solicitação de orçamento personalizado.",
+        },
+    ElegânciaNoturna: {
+            title: "Festa Elegância Noturna",
+            themeDescription: "Mergulhe em um ambiente sofisticado e intrigante com nossa Festa Elegância Noturna! Este tema utiliza uma paleta de tons escuros e ricos, criando uma atmosfera luxuosa e misteriosa. Ideal para celebrações que desejam um toque de glamour e exclusividade.",
+            imageGallery: ["img/festaCorEscura.jpeg"],
+            servicesIncluded: "Inclui decoração completa do ambiente com tons escuros, iluminação dramática, detalhes sofisticados, e montagem e desmontagem. Criamos um cenário elegante e envolvente, perfeito para uma festa inesquecível.",
+            contactInfo: "Entre em contato conosco para informações detalhadas e solicitação de orçamento personalizado.",
+        },
+    FestaDoFutebol: {
+            title: "Festa do Futebol",
+            themeDescription: "Celebre o amor pelo futebol com nossa Festa do Futebol! Este tema é perfeito para os fãs do esporte, trazendo elementos decorativos que refletem a paixão pelo jogo, de forma descontraída e divertida. Ideal para aniversários e confraternizações entre amigos e familiares.",
+            imageGallery: ["img/futebol.jpeg"],
+            servicesIncluded: "Inclui decoração temática de futebol, e pequenos detalhes que trazem a essência do esporte, além de montagem e desmontagem. Criamos um ambiente acolhedor e animado para uma celebração esportiva inesquecível.",
+            contactInfo: "Entre em contato conosco para informações detalhadas e solicitação de orçamento personalizado.",
+        }, 
+
+        HarryPotter: {
+            title: "Mini Table Harry Potter",
+            themeDescription: "Entre no mundo mágico de Harry Potter com nossa festa temática encantadora! Com decorações inspiradas nos feitiçaria e nas aventuras de Hogwarts, criamos um ambiente mágico e misterioso, perfeito para fãs da saga. Transforme sua celebração em um conto de fadas com detalhes mágicos e uma atmosfera encantadora.",
+            imageGallery: ["img/harrymini.jpeg"],
+            servicesIncluded: "Inclui decoração completa do ambiente com tema Harry Potter, elementos mágicos, montagem e desmontagem. Garantimos que sua festa seja um evento inesquecível e cheio de encantamento.",
+            contactInfo: "Entre em contato conosco para informações detalhadas e solicitação de orçamento personalizado.",
+        },
+        Stitch: {
+            title: "Mini Table Stitch",
+            themeDescription: "Aventuras e diversão esperam por você com a Festa do Stitch! Com decorações vibrantes e inspiradas no adorável alienígena de Lilo & Stitch, esta festa traz um toque exótico e cativante ao seu evento. Ideal para criar momentos inesquecíveis e cheios de personalidade.",
+            imageGallery: ["img/stitchmini.jpeg"],
+            servicesIncluded: "Inclui decoração completa do ambiente com tema Stitch, elementos inspirados em Lilo & Stitch, montagem e desmontagem. Garantimos que sua festa será uma celebração cheia de personalidade e charme.",
+            contactInfo: "Entre em contato conosco para informações detalhadas e solicitação de orçamento personalizado.",
+        },
+        SafariMickey: {
+            title: "Mini Table Safari do Mickey",
+            themeDescription: "Explore a savana com o Mickey Mouse em nossa Festa Safari! Com decorações inspiradas nas aventuras do Mickey e seus amigos em um cenário selvagem, esta festa é perfeita para jovens exploradores e amantes da natureza. Um evento animado e cheio de diversão!",
+            imageGallery: ["img/safarimickeymini.jpeg"],
+            servicesIncluded: "Inclui decoração completa do ambiente com tema Safari do Mickey, elementos temáticos inspirados na savana, montagem e desmontagem. Garantimos uma festa animada e inesquecível.",
+            contactInfo: "Entre em contato conosco para informações detalhadas e solicitação de orçamento personalizado.",
+        },
+        JardimDasBorboletas: {
+            title: "Mini Table Jardim das Borboletas",
+            themeDescription: "Desfrute da tranquilidade e da beleza do Jardim das Borboletas em sua festa temática. Com decorações delicadas e inspiradas na natureza, criamos um ambiente sereno e mágico, ideal para quem busca uma celebração suave e encantadora.",
+            imageGallery: ["img/borboletamini.jpeg"],
+            servicesIncluded: "Inclui decoração completa do ambiente com tema Jardim das Borboletas, elementos naturais e delicados, montagem e desmontagem. Cada detalhe é planejado para criar um ambiente harmonioso e encantador.",
+            contactInfo: "Entre em contato conosco para informações detalhadas e solicitação de orçamento personalizado.",
+        },
+        SkyePatrulhaCanina: {
+            title: "Mini Table Skye da Patrulha Canina",
+            themeDescription: "Leve a diversão ao céu com a Festa da Skye da Patrulha Canina! Com decorações inspiradas na corajosa cachorrinha da Patrulha Canina, esta festa traz uma atmosfera vibrante e aventureira, perfeita para fãs da série e para uma celebração cheia de energia.",
+            imageGallery: ["img/patrulharosamini.jpeg"],
+            servicesIncluded: "Inclui decoração completa do ambiente com tema Skye da Patrulha Canina, elementos coloridos e aventureiros, montagem e desmontagem. Garantimos uma festa animada e cheia de diversão.",
+            contactInfo: "Entre em contato conosco para informações detalhadas e solicitação de orçamento personalizado.",
+        },
+        Flamengo: {
+            title: "Mini Table Flamengo",
+            themeDescription: "Celebre o amor pelo futebol com a Festa do Flamengo! Com decorações temáticas e detalhes que refletem a paixão pelo time, criamos um ambiente animado e vibrante, ideal para torcedores e para uma festa esportiva inesquecível.",
+            imageGallery: ["img/flamengomini.jpeg"],
+            servicesIncluded: "Inclui decoração completa do ambiente com tema Flamengo, elementos esportivos e vibrantes, montagem e desmontagem. Garantimos uma festa inesquecível e cheia de energia.",
+            contactInfo: "Entre em contato conosco para informações detalhadas e solicitação de orçamento personalizado.",
+        },
 };
+
+
+
 
 function getParameterByName(name) {
     const url = new URL(window.location.href);
