@@ -149,7 +149,7 @@ const festas = {
             servicesIncluded: "Inclui decoração completa do ambiente com tema Safari do Mickey, elementos temáticos inspirados na savana, montagem e desmontagem. Garantimos uma festa animada e inesquecível.",
             contactInfo: "Entre em contato conosco para informações detalhadas e solicitação de orçamento personalizado.",
         },
-        JardimDasBorboletas: {
+        JardimDasBorboletasMini: {
             title: "Mini Table Jardim das Borboletas",
             themeDescription: "Desfrute da tranquilidade e da beleza do Jardim das Borboletas em sua festa temática. Com decorações delicadas e inspiradas na natureza, criamos um ambiente sereno e mágico, ideal para quem busca uma celebração suave e encantadora.",
             imageGallery: ["img/borboletamini.jpeg"],
